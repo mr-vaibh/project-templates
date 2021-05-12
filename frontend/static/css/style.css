@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+#headshot {
+  width: 400px;
+  margin: auto;
+}

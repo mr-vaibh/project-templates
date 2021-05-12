@@ -1,4 +1,4 @@
-# Django Heroku Starter Template
+# Django REACT Starter Template
 
 An utterly fantastic project starter template for Django 3.1.
 
@@ -13,14 +13,14 @@ An utterly fantastic project starter template for Django 3.1.
 To use this project, follow these steps:
 
 1. Create your working environment.
-2. Install Django (`$ pipenv install django`)
+2. Install backend dependencies (`$ pipenv install`)
 3. Create a new project using this template
 
 ## Creating Your Project
 
 Using this template to create a new Django app is easy::
 
-    $ django-admin.py startproject --template=https://github.com/mr-vaibh/django-heroku-template/archive/main.zip --name=Procfile djangoproject .
+    $ django-admin.py startproject --template=https://github.com/mr-vaibh/django-REACT-template/archive/main.zip --name=Procfile djangoproject .
 
 (If this doesn't work on windows, replace `django-admin.py` with `django-admin`)
 
@@ -28,6 +28,11 @@ You can replace ``djangoproject`` with your desired project name.
 
 ## For Static/Media files management
 [https://docs.djangoproject.com/en/3.1/howto/static-files/](https://docs.djangoproject.com/en/3.1/howto/static-files/)
+
+## For FRONTEND
+Goto `cd .\frontenv`
+Run `$ npm install`
+and in same directory run `npm run dev` (for development) or `npm run build` (for production)
 
 ## For .ENV environment variable
 https://help.pythonanywhere.com/pages/environment-variables-for-web-apps/
@@ -47,6 +52,8 @@ Usage in module
 
     import os
     SECRET_KEY = os.environ["SECRET_KEY"]
+
+
 
 ---
 
