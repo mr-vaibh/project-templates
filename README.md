@@ -20,7 +20,7 @@ To use this project, follow these steps:
 
 Using this template to create a new Django app is easy::
 
-    $ django-admin startproject --template=https://github.com/mr-vaibh/project-templates/archive/heroku/django-3.2.zip --name=Procfile djangoproject .
+    django-admin startproject --template=https://github.com/mr-vaibh/project-templates/archive/heroku/django-3.2.zip --name=Procfile djangoproject .
 
 (If this doesn't work on windows, replace `django-admin.py` with `django-admin`)
 
