@@ -5,6 +5,10 @@ name = "pypi"
 
 [packages]
 django = "*"
+django-heroku = "*"
+gunicorn = "*"
+whitenoise = "*"
+dj-database-url = "*"
 
 [dev-packages]
 
