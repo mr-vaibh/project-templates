@@ -140,9 +140,9 @@ SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 STATIC_URL = '/static/'
 
+# Extra places for collectstatic to find static files.
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
-# Extra places for collectstatic to find static files.
 STATICFILES_DIRS = [
     BASE_DIR / 'static',
 ]
